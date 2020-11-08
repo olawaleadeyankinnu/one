@@ -1549,15 +1549,15 @@ header .header-logo a {
 }
 .home-content-tablecell h3 {
   font-family: "montserrat-bold", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: white;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: .5rem;
   margin: 0 0 .9rem 0;
 }
 .home-content-tablecell h1 {
   font-family: "montserrat-bold", serif;
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1.133;
   color: #F9A828;
 }
@@ -1807,8 +1807,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #about .lead {
   font-family: "librebaskerville-bold", serif;
-  font-size: 4rem;
-  line-height: 1.8;
+  font-size: 3rem;
+  line-height: 1.5;
   color: #2e383f;
   margin-top: 6rem;
 }
@@ -2803,7 +2803,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 footer {
   margin: 0 0 5.4rem 0;
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: rgba(255, 255, 255, 0.4);
 }
 footer a, footer a:visited {
@@ -2818,8 +2818,8 @@ footer .row {
 footer h4.h05 {
   color: #F9A828;
   position: relative;
-  padding-bottom: 4.2rem;
-  margin-bottom: 3.6rem;
+  padding-bottom: 3.2rem;
+  margin-bottom: 2.6rem;
 }
 footer h4.h05::after {
   display: block;
@@ -2835,7 +2835,7 @@ footer h4.h05::after {
 /* footer main
  * --------------------------------- */
 .footer-main {
-  padding-top: 9.6rem;
+  padding-top: 3.6rem;
   padding-bottom: 3rem;
 }
 .footer-main ul {
@@ -2948,7 +2948,7 @@ footer h4.h05::after {
   color: #888;
 }
 #go-top a:hover, #go-top a:focus {
-  background: #000000;
+  background: #F9A828;
   color: #FFFFFF;
 }
 
@@ -2993,3 +2993,15 @@ footer h4.h05::after {
     display: none;
   }
 }
+
+@-webkit-keyframes progress-bar {
+   0% { width: 0; }
+}
+@-moz-keyframes progress-bar {
+   0% { width: 0; }
+}
+keyframes progress-bar {
+   0% { width: 0; }
+}
+
+
